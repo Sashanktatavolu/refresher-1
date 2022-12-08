@@ -18,9 +18,9 @@ product3= int(input("enter product3 quantity "))
 # #using the for loop
 # for s in productlist:
 #     print(s) 
-price1=300
-price2=400
-price3=500
+# price1=300
+# price2=400
+# price3=500
     # totalquantity=product1+product2+product3
     # total =(priceOfProduct1*product1+ priceOfProduct2*product2+ priceOfProduct3*product3 )
     # print("the total quantity is",totalquantity)
@@ -31,10 +31,8 @@ if((product1<=0) or (product2<=0) or(product3<=0)):
     print('please enter a positive number')
 else:
     print('product quantity with price')
-    total =(price1*product1+ price2*product2+ price3*product3 )  
-    entries = {product1:200,product2:300,product3:400
-    
-    }
+    total =(200*product1+ 300*product2+ 500*product3 )  
+    entries = {product1:200,product2:300,product3:500}
     for i,p in entries.items():
         print(i,p)
     print('the amount that you nedd to pay :')
